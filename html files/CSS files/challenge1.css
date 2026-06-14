@@ -1,0 +1,42 @@
+body {background:  hsl(212, 45%, 89%);;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: outfit;
+      margin: 0px;
+      flex-direction: column;
+      gap: 20px;
+      font-family: Outfit;
+}
+img{border-radius: 10px; 
+    width: 100%;}
+
+.card{ background-color: white;
+        border-radius: 20px;
+        width: 250px;
+        padding: 10px;
+        text-align: center;
+        height: 420px;}
+
+h1{font-size: 22px;
+   color:  hsl(218, 44%, 22%);
+    font-family: Outfit;}
+
+.hero-para{ font-size: 15px;
+            color: hsl(216, 15%, 48%);}
+    .attribution{
+             font-size: 11px;
+              text-align:center;}
+ 
+@media screen and (max-width:  375px) {
+        .card{ padding: 10px;
+               width:60px ;}
+        .attribution{ font-size: 2px;}
+} 
+
+@media screen and (max-width: 1440px){
+        .card{ padding: 10px;
+               width: 260px;}
+        .attribution{ font-size: medium;}
+}
