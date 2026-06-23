@@ -29,8 +29,10 @@ h1{font-size: 22px;
               text-align:center;}
  
 @media screen and (max-width:  375px) {
+        h1{ font-size:18px;}
+        .hero-para{font-size: 9px;}
         .card{ padding: 10px;
-               width:60px ;}
+               width:100% ;}
         .attribution{ font-size: 3px;}
 } 
 
